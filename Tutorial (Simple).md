@@ -1,7 +1,7 @@
 Building a RayTracer in Unity
 =============================
 ##Intro
-Hello, and again, welcome to the â€œBuilding a RayTracer in Unityâ€ tutorial.
+Hello, and again, welcome to the "Building a RayTracer in Unity" tutorial.
 Here are a couple things you should probably know:
 
 - Everything will be statically typed... even function
