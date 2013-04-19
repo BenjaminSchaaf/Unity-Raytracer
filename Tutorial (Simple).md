@@ -94,7 +94,7 @@ function OnGUI():void {
 
 Now we have a "working" raytracer. If we open up a new scene, place a couple of objects with colliders attached, attach our script to the camera and run it, we will see exactly what we had hoped for, Black and White:
 
-[Insert Image Here]
+![ScreenShot](http://db.tt/HbHYumol)
 
 Thats it for part 1, here is the code so far:
 ```javascript
@@ -352,7 +352,7 @@ return returnColor
 Yay! We now have textured and shaded objects.  
 Lets see what it looks like so far?  
 
-[Insert Image Here]
+![ScreenShot](http://db.tt/v63jXgat)
 
 Before we begin to add lighting, as promised, I will paste the full code again
 
@@ -513,7 +513,7 @@ returnColor *= TraceLight(hit.point);
 
 And thats it! We now have shadows.  
 
-[Insert Image Here]
+![ScreenShot](http://db.tt/Uz95LMVd)
 
 As you probably have noticed while playing around with the directional lighting we now have,  
 That there is one major problem with this: White error spots...
@@ -530,7 +530,7 @@ returnColor *= TraceLight(hit.point + hit.normal*0.0001);
 
 This tiny little change will make all the difference.
 
-[Insert Image Here]
+![ScreenShot](http://db.tt/4d86Kqfq)
 
 And here is all the code so far:
 
@@ -721,8 +721,6 @@ if (Physics.Raycast(pos, -light.transform.forward, collisionMask)) {
 ```
 
 And there we have it! Automatic collider setup. Now we can even run physics with no problems!
-
-[Insert Image Here]
 
 As always, here is the complete code:
 
@@ -921,7 +919,7 @@ Most likely I will not be going over that in this tutorial, because of it's comp
 
 Now we have proper (fast) normal shading, isn't it awesome!?
 
-[Insert Image Here]
+![ScreenShot](http://db.tt/UmDHFr05)
 
 And now the code.... again...
 
@@ -1237,7 +1235,7 @@ And there we go! We now have working spot lights. They don't work in quite the s
 
 Lets look at both of them in action:
 
-[Inset Image Here]
+![ScreenShot](http://db.tt/uI4mSUXA)
 
 On that note, here is also the current code:
 
