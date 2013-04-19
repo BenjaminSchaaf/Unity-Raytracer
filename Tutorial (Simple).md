@@ -1426,6 +1426,7 @@ Have a nice day
 
 Unity Forums:
 http://forum.unity3d.com/members/45364-Benproductions1
+http://forum.unity3d.com/threads/178992-RayTracing-Tutorial-Full-(Simple)
 
 My RayTracer:
 https://github.com/Benproductions1/Unity-Raytracer
