@@ -1,3 +1,5 @@
+Note by Charleston314: I am currently porting this code to C# to be compatible for the latest Unity version.
+
 #Unity Raytraced Renderer
 ===
 ##Usage
